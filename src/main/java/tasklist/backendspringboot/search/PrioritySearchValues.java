@@ -10,7 +10,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 
-// возможные значения, по которым можно искать приоритеты
 public class PrioritySearchValues {
 
     private String text;

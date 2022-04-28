@@ -28,7 +28,7 @@ public class PriorityService {
     }
 
     public Priority add(Priority priority) {
-        return repository.save(priority); // метод save обновляет или создает новый объект, если его не было
+        return repository.save(priority);
     }
 
     public Priority update(Priority priority){

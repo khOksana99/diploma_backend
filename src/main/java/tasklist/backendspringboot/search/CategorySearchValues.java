@@ -10,7 +10,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 
-// возможные значения, по которым можно искать категории
 public class CategorySearchValues {
 
     private String text;
